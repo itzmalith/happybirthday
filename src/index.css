@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=JetBrains+Mono&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", serif;
+  --font-display: "Playfair Display", serif;
+  --font-mono: "Courier New", Courier, monospace;
+  --font-sans: 'Helvetica Neue', Arial, sans-serif;
+  --color-glass-bg: rgba(10, 5, 20, 0.4);
+  --color-glass-border: rgba(255, 182, 193, 0.15);
+  --color-accent: #f3e5ab; /* Rose gold / Champagne */
+  --color-romantic-wine: #4a1c1c;
+  --color-romantic-rose: #ff85a1;
+  --color-prestige-cream: #f5f2ed;
+}
+
+@layer base {
+  body {
+    @apply bg-[#08050a] text-prestige-cream font-sans antialiased overflow-x-hidden;
+  }
+}
+
+.atmosphere {
+  background: 
+    radial-gradient(circle at 10% 20%, #4a1c1c 0%, transparent 40%),
+    radial-gradient(circle at 90% 80%, #1e2a4a 0%, transparent 40%),
+    radial-gradient(circle at 50% 50%, #0d0912 0%, #050406 100%);
+  @apply fixed inset-0 -z-10 opacity-100;
+}
+
+.frosted-glass {
+  @apply bg-glass-bg backdrop-blur-[24px] border border-glass-border shadow-[0_20px_50px_rgba(0,0,0,0.5)];
+}
+
+.text-glow {
+  text-shadow: 0 0 20px rgba(255, 133, 161, 0.3);
+}
+
+.gold-glow {
+  text-shadow: 0 0 15px rgba(243, 229, 171, 0.4);
+}
+
+.heart-glow {
+  filter: drop-shadow(0 0 15px rgba(255, 133, 161, 0.7));
+}
+
+.line-divider {
+  @apply h-px w-full bg-white/10 my-12;
+}
