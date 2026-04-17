@@ -30,7 +30,7 @@ const POEMS = [
   },
   {
     title: "The Vow",
-    content: "“Do you promise to love, support, and care for this person,\nand to stand by them through all of life’s joys and challenges?”\n\nWell I did, and she did too,\ntwo outlaw hearts, still seeing it through.\nStraight outta chaos, that’s the path we knew.\nPain came loud we survived it too.\n\nYou got no damn idea what vows can weigh,\nHow forever talks when the skies go gray,\nEven When the times were bitch she chose to stay\nto hell with vows, we were born to slay"
+    content: "“Do you promise to love, support, and care for this person,\nand to stand by them through all of life’s joys and challenges?”\n\nWell I did, and she did too,\ntwo outlaw hearts, still seeing it through.\nStraight outta chaos, that’s the path we knew.\nPain came loud we survived it too.\n\nYou got no damn idea what vows can weigh,\nHow forever talks when the skies go grey,\nEven When the times were hard she chose to stay\nto hell with vows, we were born to slay"
   }
 ];
 
